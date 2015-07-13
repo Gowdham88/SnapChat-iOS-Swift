@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040974AF1B53B24D008C13E2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040974AC1B53B24D008C13E2 /* Bolts.framework */; };
+		040974B01B53B24D008C13E2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040974AD1B53B24D008C13E2 /* Parse.framework */; };
+		040974B11B53B24D008C13E2 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040974AE1B53B24D008C13E2 /* ParseUI.framework */; };
+		040974B31B53B28F008C13E2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040974B21B53B28F008C13E2 /* FacebookSDK.framework */; };
 		04E826101B4E19BD00A26DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8260F1B4E19BD00A26DD8 /* AppDelegate.swift */; };
 		04E826121B4E19BD00A26DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E826111B4E19BD00A26DD8 /* ViewController.swift */; };
 		04E826151B4E19BD00A26DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E826131B4E19BD00A26DD8 /* Main.storyboard */; };
 		04E826171B4E19BD00A26DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E826161B4E19BD00A26DD8 /* Images.xcassets */; };
 		04E8261A1B4E19BD00A26DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E826181B4E19BD00A26DD8 /* LaunchScreen.xib */; };
 		04E826261B4E19BD00A26DD8 /* SnapChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E826251B4E19BD00A26DD8 /* SnapChatTests.swift */; };
+		04E826341B4E19EB00A26DD8 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826311B4E19EB00A26DD8 /* ParseFacebookUtils.framework */; };
+		04E826381B4E1A0B00A26DD8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826371B4E1A0B00A26DD8 /* AudioToolbox.framework */; };
+		04E8263A1B4E1A1400A26DD8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826391B4E1A1400A26DD8 /* CFNetwork.framework */; };
+		04E8263C1B4E1A1C00A26DD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8263B1B4E1A1C00A26DD8 /* CoreGraphics.framework */; };
+		04E8263E1B4E1A2200A26DD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8263D1B4E1A2200A26DD8 /* CoreLocation.framework */; };
+		04E826401B4E1A2A00A26DD8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8263F1B4E1A2A00A26DD8 /* libz.dylib */; };
+		04E826421B4E1A3200A26DD8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826411B4E1A3200A26DD8 /* MobileCoreServices.framework */; };
+		04E826441B4E1A3A00A26DD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826431B4E1A3A00A26DD8 /* QuartzCore.framework */; };
+		04E826461B4E1A4200A26DD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826451B4E1A4200A26DD8 /* Security.framework */; };
+		04E826481B4E1A4900A26DD8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826471B4E1A4900A26DD8 /* StoreKit.framework */; };
+		04E8264A1B4E1A5200A26DD8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826491B4E1A5200A26DD8 /* SystemConfiguration.framework */; };
+		04E826551B4E1E3000A26DD8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E826541B4E1E3000A26DD8 /* libsqlite3.dylib */; };
+		04E826591B4E20C500A26DD8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E826581B4E20C500A26DD8 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040974AC1B53B24D008C13E2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		040974AD1B53B24D008C13E2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		040974AE1B53B24D008C13E2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		040974B21B53B28F008C13E2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		04E8260A1B4E19BD00A26DD8 /* SnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8260E1B4E19BD00A26DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E8260F1B4E19BD00A26DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +57,20 @@
 		04E8261F1B4E19BD00A26DD8 /* SnapChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E826241B4E19BD00A26DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E826251B4E19BD00A26DD8 /* SnapChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatTests.swift; sourceTree = "<group>"; };
+		04E826311B4E19EB00A26DD8 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = SnapChat/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		04E826371B4E1A0B00A26DD8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04E826391B4E1A1400A26DD8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04E8263B1B4E1A1C00A26DD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04E8263D1B4E1A2200A26DD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04E8263F1B4E1A2A00A26DD8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		04E826411B4E1A3200A26DD8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04E826431B4E1A3A00A26DD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04E826451B4E1A4200A26DD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04E826471B4E1A4900A26DD8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		04E826491B4E1A5200A26DD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04E8264B1B4E1A6C00A26DD8 /* SnapChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapChat-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		04E826541B4E1E3000A26DD8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		04E826581B4E20C500A26DD8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E826551B4E1E3000A26DD8 /* libsqlite3.dylib in Frameworks */,
+				04E8264A1B4E1A5200A26DD8 /* SystemConfiguration.framework in Frameworks */,
+				04E826481B4E1A4900A26DD8 /* StoreKit.framework in Frameworks */,
+				04E826461B4E1A4200A26DD8 /* Security.framework in Frameworks */,
+				04E826441B4E1A3A00A26DD8 /* QuartzCore.framework in Frameworks */,
+				04E826421B4E1A3200A26DD8 /* MobileCoreServices.framework in Frameworks */,
+				04E826401B4E1A2A00A26DD8 /* libz.dylib in Frameworks */,
+				040974AF1B53B24D008C13E2 /* Bolts.framework in Frameworks */,
+				04E8263E1B4E1A2200A26DD8 /* CoreLocation.framework in Frameworks */,
+				04E8263C1B4E1A1C00A26DD8 /* CoreGraphics.framework in Frameworks */,
+				040974B01B53B24D008C13E2 /* Parse.framework in Frameworks */,
+				04E8263A1B4E1A1400A26DD8 /* CFNetwork.framework in Frameworks */,
+				040974B11B53B24D008C13E2 /* ParseUI.framework in Frameworks */,
+				040974B31B53B28F008C13E2 /* FacebookSDK.framework in Frameworks */,
+				04E826381B4E1A0B00A26DD8 /* AudioToolbox.framework in Frameworks */,
+				04E826341B4E19EB00A26DD8 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +110,22 @@
 		04E826011B4E19BD00A26DD8 = {
 			isa = PBXGroup;
 			children = (
+				04E826541B4E1E3000A26DD8 /* libsqlite3.dylib */,
+				040974B21B53B28F008C13E2 /* FacebookSDK.framework */,
+				040974AC1B53B24D008C13E2 /* Bolts.framework */,
+				040974AD1B53B24D008C13E2 /* Parse.framework */,
+				040974AE1B53B24D008C13E2 /* ParseUI.framework */,
+				04E826311B4E19EB00A26DD8 /* ParseFacebookUtils.framework */,
+				04E826491B4E1A5200A26DD8 /* SystemConfiguration.framework */,
+				04E826471B4E1A4900A26DD8 /* StoreKit.framework */,
+				04E826451B4E1A4200A26DD8 /* Security.framework */,
+				04E826431B4E1A3A00A26DD8 /* QuartzCore.framework */,
+				04E826411B4E1A3200A26DD8 /* MobileCoreServices.framework */,
+				04E8263F1B4E1A2A00A26DD8 /* libz.dylib */,
+				04E8263D1B4E1A2200A26DD8 /* CoreLocation.framework */,
+				04E8263B1B4E1A1C00A26DD8 /* CoreGraphics.framework */,
+				04E826391B4E1A1400A26DD8 /* CFNetwork.framework */,
+				04E826371B4E1A0B00A26DD8 /* AudioToolbox.framework */,
 				04E8260C1B4E19BD00A26DD8 /* SnapChat */,
 				04E826221B4E19BD00A26DD8 /* SnapChatTests */,
 				04E8260B1B4E19BD00A26DD8 /* Products */,
@@ -79,8 +146,10 @@
 			children = (
 				04E8260F1B4E19BD00A26DD8 /* AppDelegate.swift */,
 				04E826111B4E19BD00A26DD8 /* ViewController.swift */,
+				04E826581B4E20C500A26DD8 /* TableViewController.swift */,
 				04E826131B4E19BD00A26DD8 /* Main.storyboard */,
 				04E826161B4E19BD00A26DD8 /* Images.xcassets */,
+				04E8264B1B4E1A6C00A26DD8 /* SnapChat-Bridging-Header.h */,
 				04E826181B4E19BD00A26DD8 /* LaunchScreen.xib */,
 				04E8260D1B4E19BD00A26DD8 /* Supporting Files */,
 			);
@@ -213,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E826121B4E19BD00A26DD8 /* ViewController.swift in Sources */,
+				04E826591B4E20C500A26DD8 /* TableViewController.swift in Sources */,
 				04E826101B4E19BD00A26DD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +410,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapChat",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SnapChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +428,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapChat",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SnapChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +494,7 @@
 				04E8262B1B4E19BD00A26DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E8262C1B4E19BD00A26DD8 /* Build configuration list for PBXNativeTarget "SnapChatTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +503,7 @@
 				04E8262E1B4E19BD00A26DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
